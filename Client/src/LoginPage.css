@@ -1,0 +1,92 @@
+/* General styles */
+body {
+  background-color: #f8f9fa; /* Light background color */
+  font-family: 'Arial', sans-serif; /* Font style */
+}
+
+/* Container styles */
+.container {
+  max-width: 400px; /* Limit the width of the form */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add padding */
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* Slide in from above */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heading styles */
+h1 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Darker text color */
+}
+
+/* Form styles */
+.form-label {
+  font-weight: bold; /* Bold labels */
+  color: #555; /* Darker label color */
+}
+
+.form-control {
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border color and shadow */
+}
+
+/* Input focus styles */
+.form-control:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}
+
+/* Button styles */
+.btn {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding for the button */
+  background-color: #007bff; /* Primary button color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background color and scale */
+}
+
+/* Button hover styles */
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Error message styles */
+.text-danger {
+  color: #dc3545; /* Red color for error messages */
+}
+
+/* Link styles */
+.signup-link {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Link hover styles */
+.signup-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .container {
+    padding: 15px; /* Reduce padding on smaller screens */
+  }
+}

@@ -1,0 +1,46 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .welcome-message {
+    margin: 20px 0;
+  }
+  
+  .user-info {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .actions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .actions li {
+    margin: 10px 0;
+  }
+  
+  .actions a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .actions a:hover {
+    text-decoration: underline;
+  }
